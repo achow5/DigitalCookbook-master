@@ -1,0 +1,32 @@
+Damien Machado
+
+Module tested: Text To Speech
+
+The on screen buttons should track the current step the user is on.
+if there are no previous steps, the back button should not do anything.
+if there are no next steps, the forward button should not do anything.
+the buttons will read out the correct step until it is completed,
+or another useful button is pressed.
+ 
+
+Equivalence classes:
+
+Since the data structure is the same for all recipes, 
+testing all 3 buttons thoroughly for a single recipe with more than one step
+should be sufficient to ensure the fuctionality of text to speech for all recipes.
+
+Test Cases:
+1. Select a recipe with more than one step.
+
+2. Press the middle button to start reading the first step.
+
+3. Before the step has finished reading, press the back button. 
+   No interuptions should happen.
+
+4. Let the step finish, then press the middle button again.
+
+5. While the step is still being read, press the forward button. 
+   The speech should stop, and start the next step.
+
+6. Go to the last step, play it, and then press the forward button.
+   No interuptions should happen.

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DigitalCookbook</string>
+    <string name="action_fav">Favorite</string>
+    <string name="action_unfav">Un-favorite</string>
+    <string name="goToFavorite">Go to favorites</string>
+    <string name="main_title">Categories</string>
+</resources>

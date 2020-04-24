@@ -1,0 +1,26 @@
+Michael Nguyen
+
+Module tested: Activity navigation
+
+We have multiple categories that a user could select. Each of these
+categories should lead to a list of recipes that are under that
+category. When a recipe is selected from that list, it should lead
+to a full recipe page that shows everything needed to make that
+recipe. 
+
+
+Equivalence classes: 
+
+We have a large number of recipes contained in each category. If we 
+get the desired output from selecting one recipe in the list, then 
+all of the recipes for that category should also result in the desired 
+output.
+
+Test Case:
+
+1. Select a category
+2. Verify the picture next to a chosen recipe is correct
+3. Select the chosen recipe
+4. Verify that the correct data is displayed
+5. Return to the main menu using in app navigation buttons
+6. Repeat for all categories
