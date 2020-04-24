@@ -9,4 +9,5 @@ Further instructions included in the UserGuide.pdf file.
 
 [Note 4/24/2020]
 This is a copy of the original DigitalCookbook code created as a collaboration
-between Andrew C., Michael N., Darien F., Camden C. , and Damien M. 
+between Andrew C., Michael N., Darien F., Camden C. , and Damien M.
+The original can be found here: https://github.com/Mivinguy/DigitalCookbook
